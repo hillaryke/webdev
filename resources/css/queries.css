@@ -104,13 +104,15 @@
         text-align: center;
         margin-top: 10px;
     }
+    .box img { margin: 15px auto; }
+    .btn-app img { margin-right: 5px; }
+
+    .plan-price { font-weight: 200; }
 }
 
 /* small phones : from 0 to 480px */
 @media only screen and (max-width: 480px) {
     section { padding: 25px 0; }
     .contact-form { width: 100%; }
-    .btn-app img { margin-right: 5px; }
-    .box img { margin: 15px auto; }
-    .plan-price { font-weight: 200; }
+
 }
